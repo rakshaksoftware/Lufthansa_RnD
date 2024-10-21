@@ -1,0 +1,32 @@
+  24 
+Contrail Studies Airborne Exhaust (CSAE) project, data analysis
+Data from http://data.eol.ucar.edu/codiac/dss/id=252.004, analyzed by Ulrich Schumann, 27 August 2016
+
+IRUN = a running number of flight segment
+file = filename
+it1 and it2: beginning and end of the time period with high particle concentrations, in seconds UTC
+NMEAN = number of 1-s mean values used to compute mean values
+tcmean = Temperature in °C, from ATFH: AMBIENT TEMPERATURE (FUSELAGE HEATED)
+sigma = corresponding standard deviation
+paltmean = pressure altitude in m, from PALT: NACA PRESSURE ALTITUDE
+sigma = corresponding standard deviation
+pmean = static pressure in Pa, from standard pressure for given PALT
+sigma = corresponding standard deviation
+rhmean = Relative humidity over ice in %,from RHUM: RELATIVE HUMIDITY
+sigma = corresponding standard deviation
+TASmean = true air speed mean in m/s,fromTASF: AIRCRAFT TRUE AIRSPEED (FUSELAGE)
+sigma = corresponding standard deviation
+FSSPmean = mean particle concentration from FSSP-300 in cm-3, from sum of all ten channels in C300X_10: 300X PROBE CONCENTRATION
+sigma = corresponding standard deviation
+conccmean = CN concentration in cm-3, from CONCNC: CORRECTED CN PARTICLE CONCENTRATION
+sigma = corresponding standard deviation
+
+  IRUN           file        it1       it2     Nmean         tcmean          sigma       paltmean          sigma          pmean          sigma         rhmean          sigma        TASmean          sigma       FSSPmean          sigma      conccmean          sigma
+     1 RF03A.19890323      52410     53060       265          -56.7            0.4         9930.6           18.4        26718.5           72.0          128.6           10.3          188.7            4.7         2269.7         3769.4        12714.4        11008.6
+     2 RF05B.19890410      65930     66760       831          -53.2            0.5         9838.2            8.3        27097.6           60.7           78.2           18.1          191.5            5.5          105.8          334.3       186554.6       242636.1
+     3 RF06B.19890411      52200     53200        15          -61.6            0.8        11023.8           31.7        22547.4          112.5          143.3           27.9          186.6            5.2          548.1          704.9          779.2         1015.8
+     4 RF07B.19890412      51530     52100       251          -53.1            0.2         9931.7           14.4        26713.7           60.7           85.5            2.5          190.7            4.6          216.4          466.7        13024.9        13465.3
+     5 RF09A.19890413      48120     49000       266          -55.1            0.7        10348.3           11.4        25056.5           53.0           97.3           21.3          187.2            5.8          379.9          690.4        14778.7        11198.0
+     6 RF09B.19890413      51280     51900       231          -54.2            0.2        10049.7           15.1        26235.8           55.7           88.7            5.1          189.8            4.8          326.7          554.3        17001.2        12670.5
+     7 RF10A.19890414      47730     48480       411          -53.4            1.4        10269.3          153.2        25370.3          607.0          111.0            9.0          188.8            9.3          927.1         1162.2        20550.2        12625.6
+     8 RF10B.19890414      50900     52000       636          -55.4            0.5        10371.2           13.8        24968.2           36.8           99.3            8.7          188.5            4.2          645.7          796.5        22338.1        13577.7
