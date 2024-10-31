@@ -19,89 +19,111 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
-    \entry{overleaf}{misc}{}{}
+    \entry{enwiki:1250066651}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=80d685e90fa23d7996a66e45aa2d24ad}{%
-           family={Overleaf},
-           familyi={O\bibinitperiod}}}%
+        {{hash=b6aea1a416c89509a7df1cbb69249cb6}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
       }
-      \strng{namehash}{80d685e90fa23d7996a66e45aa2d24ad}
-      \strng{fullhash}{80d685e90fa23d7996a66e45aa2d24ad}
-      \strng{fullhashraw}{80d685e90fa23d7996a66e45aa2d24ad}
-      \strng{bibnamehash}{80d685e90fa23d7996a66e45aa2d24ad}
-      \strng{authorbibnamehash}{80d685e90fa23d7996a66e45aa2d24ad}
-      \strng{authornamehash}{80d685e90fa23d7996a66e45aa2d24ad}
-      \strng{authorfullhash}{80d685e90fa23d7996a66e45aa2d24ad}
-      \strng{authorfullhashraw}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhashraw}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhashraw}{b6aea1a416c89509a7df1cbb69249cb6}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Learn \LaTeX{} in 30 minutes}
+      \field{note}{[Online; accessed 31-October-2024]}
+      \field{title}{Contrail --- {Wikipedia}{,} The Free Encyclopedia}
+      \field{year}{2024}
       \verb{urlraw}
-      \verb https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes
+      \verb https://en.wikipedia.org/w/index.php?title=Contrail&oldid=1250066651
       \endverb
       \verb{url}
-      \verb https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes
+      \verb https://en.wikipedia.org/w/index.php?title=Contrail&oldid=1250066651
       \endverb
     \endentry
-    \entry{pakin2020comprehensive}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=b835af205adc9f4cf7b438d1116ffb60}{%
-           family={Pakin},
-           familyi={P\bibinitperiod},
-           given={Scott},
-           giveni={S\bibinitperiod}}}%
+    \entry{acp}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=e7ea35f3f0c3cf77495520fc0d8fdb22}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=9938992a17953a7437207b01183b9f11}{%
+           family={Bellouin},
+           familyi={B\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=082e72acde08db7894c70b46847e5001}{%
+           family={Boucher},
+           familyi={B\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
       }
-      \strng{namehash}{b835af205adc9f4cf7b438d1116ffb60}
-      \strng{fullhash}{b835af205adc9f4cf7b438d1116ffb60}
-      \strng{fullhashraw}{b835af205adc9f4cf7b438d1116ffb60}
-      \strng{bibnamehash}{b835af205adc9f4cf7b438d1116ffb60}
-      \strng{authorbibnamehash}{b835af205adc9f4cf7b438d1116ffb60}
-      \strng{authornamehash}{b835af205adc9f4cf7b438d1116ffb60}
-      \strng{authorfullhash}{b835af205adc9f4cf7b438d1116ffb60}
-      \strng{authorfullhashraw}{b835af205adc9f4cf7b438d1116ffb60}
+      \strng{namehash}{c9ae4b55a2a0f17cfc921585fb66b082}
+      \strng{fullhash}{f51dd26146b7d67c24196210fa704f7b}
+      \strng{fullhashraw}{f51dd26146b7d67c24196210fa704f7b}
+      \strng{bibnamehash}{f51dd26146b7d67c24196210fa704f7b}
+      \strng{authorbibnamehash}{f51dd26146b7d67c24196210fa704f7b}
+      \strng{authornamehash}{c9ae4b55a2a0f17cfc921585fb66b082}
+      \strng{authorfullhash}{f51dd26146b7d67c24196210fa704f7b}
+      \strng{authorfullhashraw}{f51dd26146b7d67c24196210fa704f7b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Atmospheric Chemistry and Physics}
+      \field{number}{8}
+      \field{title}{Distribution and morphology of non-persistent contrail and persistent contrail formation areas in ERA5}
+      \field{volume}{24}
+      \field{year}{2024}
+      \field{pages}{5009\bibrangedash 5024}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.5194/acp-24-5009-2024
+      \endverb
+      \verb{urlraw}
+      \verb https://acp.copernicus.org/articles/24/5009/2024/
+      \endverb
+      \verb{url}
+      \verb https://acp.copernicus.org/articles/24/5009/2024/
+      \endverb
+    \endentry
+    \entry{appleman1953formation}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=bd517ef8ce70594d407eb7af70ba34c3}{%
+           family={Appleman},
+           familyi={A\bibinitperiod},
+           given={Herbert},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Meteorological Society}%
+      }
+      \strng{namehash}{bd517ef8ce70594d407eb7af70ba34c3}
+      \strng{fullhash}{bd517ef8ce70594d407eb7af70ba34c3}
+      \strng{fullhashraw}{bd517ef8ce70594d407eb7af70ba34c3}
+      \strng{bibnamehash}{bd517ef8ce70594d407eb7af70ba34c3}
+      \strng{authorbibnamehash}{bd517ef8ce70594d407eb7af70ba34c3}
+      \strng{authornamehash}{bd517ef8ce70594d407eb7af70ba34c3}
+      \strng{authorfullhash}{bd517ef8ce70594d407eb7af70ba34c3}
+      \strng{authorfullhashraw}{bd517ef8ce70594d407eb7af70ba34c3}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{The comprehensive \LaTeX{} symbol list}
-      \field{year}{2020}
-      \verb{urlraw}
-      \verb http://tug.ctan.org/info/symbols/comprehensive/symbols-a4.pdf
-      \endverb
-      \verb{url}
-      \verb http://tug.ctan.org/info/symbols/comprehensive/symbols-a4.pdf
-      \endverb
-    \endentry
-    \entry{wright2022siunitx}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=93c71fed62527d4c8c6ae13ee771fcdd}{%
-           family={Wright},
-           familyi={W\bibinitperiod},
-           given={Joseph},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{93c71fed62527d4c8c6ae13ee771fcdd}
-      \strng{fullhash}{93c71fed62527d4c8c6ae13ee771fcdd}
-      \strng{fullhashraw}{93c71fed62527d4c8c6ae13ee771fcdd}
-      \strng{bibnamehash}{93c71fed62527d4c8c6ae13ee771fcdd}
-      \strng{authorbibnamehash}{93c71fed62527d4c8c6ae13ee771fcdd}
-      \strng{authornamehash}{93c71fed62527d4c8c6ae13ee771fcdd}
-      \strng{authorfullhash}{93c71fed62527d4c8c6ae13ee771fcdd}
-      \strng{authorfullhashraw}{93c71fed62527d4c8c6ae13ee771fcdd}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{\texttt{siunitx} -- A comprehensive (SI) units package}
-      \field{year}{2022}
-      \verb{urlraw}
-      \verb https://ctan.org/pkg/siunitx
-      \endverb
-      \verb{url}
-      \verb https://ctan.org/pkg/siunitx
-      \endverb
+      \field{journaltitle}{Bulletin of the American Meteorological Society}
+      \field{number}{1}
+      \field{title}{The formation of exhaust condensation trails by jet aircraft}
+      \field{volume}{34}
+      \field{year}{1953}
+      \field{pages}{14\bibrangedash 20}
+      \range{pages}{7}
     \endentry
   \enddatalist
 \endrefsection
