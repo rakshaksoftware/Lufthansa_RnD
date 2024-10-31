@@ -12,3 +12,5 @@ https://iitbacin-my.sharepoint.com/:o:/g/personal/23b1244_iitb_ac_in/EZzVXP1ilT9
 https://acp.copernicus.org/articles/17/403/2017/
 
 https://gmd.copernicus.org/articles/5/543/2012/gmd-5-543-2012.pdf
+
+https://sciencepolicy.colorado.edu/~voemel/vp.html

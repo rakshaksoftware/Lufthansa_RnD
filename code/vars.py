@@ -1,5 +1,5 @@
 import numpy as np
-T_st = 372.15
+T_st = 373.15
 T_C = 40
 eps = 0.622
 P = 1000
@@ -14,4 +14,4 @@ for T_C in (40,50,60,70,80):
     # print(w(T+delta_T))
     for delta_T in (5,40):
         print(f"Increase in mixing ratio for P = {P} and T = -{T_C} and delta_T = {delta_T} is:",end="")
-        print(1000*(w(T+delta_T) -w(T))/delta_T) # 1000 for g/kg to g/g
+        print(1000*(w(T+delta_T) - w(T))/delta_T) # 1000 for g/kg to g/g
