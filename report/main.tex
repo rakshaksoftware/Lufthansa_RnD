@@ -78,6 +78,33 @@ intermediate state of saturation with respect to water. We will refer to some ot
 % 5. What would you generally recommend to make the recorded meteorological data usable for further
 % investigations or predictions?
 
+\section{Meteorological Data Acquisition by Commercial Wide-Body Aircraft}
+
+Commercial wide-body aircraft play a crucial role in the acquisition of meteorological data, contributing valuable real-time measurements that support weather forecasting, climate monitoring, and aviation safety. The sensors onboard modern aircraft allow the collection of a range of meteorological parameters as they traverse varied atmospheric conditions across different altitudes and regions. The key measurements related to meteorology on wide-body aircraft include:
+
+\subsection{Air Temperature Measurements}
+Total Air Temperature (TAT) sensors and Static Temperature sensors are essential in monitoring the air temperature surrounding the aircraft. The TAT sensor measures the temperature of the airstream that is affected by the aircraft’s motion, which includes both the static temperature of the atmosphere and a component of kinetic heating from the aircraft’s speed. Static Temperature sensors provide the true ambient air temperature by eliminating the effect of the aircraft’s motion, giving accurate readings crucial for understanding atmospheric conditions and aiding in weather prediction models.
+
+\subsection{Pressure Measurements}
+Pitot-static systems on wide-body aircraft incorporate Pitot tubes and static ports to measure static pressure. These measurements are fundamental for calculating altitude, which is a key variable in meteorological data for determining the vertical profile of atmospheric conditions. By capturing changes in static pressure as the aircraft ascends or descends, accurate information on atmospheric layers is obtained, enhancing the data available for weather models.
+
+\subsection{Humidity Measurements}
+Humidity sensors onboard commercial aircraft measure the moisture content in the air. Relative humidity data is collected and used to assess cloud formation, precipitation likelihood, and dew point variations across different altitudes. These sensors provide essential data for meteorologists to predict weather phenomena such as thunderstorms, fog, and icing conditions that can affect aviation safety.
+
+\subsection{Wind Speed and Direction}
+Inertial Reference Units (IRUs), combined with GPS and other navigational systems, allow aircraft to derive wind speed and direction relative to the aircraft’s movement. By calculating the difference between the aircraft’s actual ground speed (provided by GPS) and its airspeed (measured by Pitot tubes), wind speed and direction at various altitudes can be accurately determined. This data is essential in forecasting weather patterns, analyzing storm development, and optimizing flight routes for efficiency.
+
+\subsection{Ice Detection}
+Ice detectors on wide-body aircraft identify the presence of ice crystals and water droplets that may accumulate on critical surfaces like wings and engines. This information not only aids in activating de-icing systems but also contributes data on atmospheric icing conditions, which is valuable for understanding cloud properties and for identifying conditions that could pose hazards to both aviation and ground weather systems.
+
+\subsection{Turbulence Detection and Reporting}
+Aircraft encounter various levels of turbulence as they pass through atmospheric regions with unstable airflows. Accelerometers and gyroscopes, integrated within the aircraft’s avionics, provide data on the aircraft's motion and can detect variations indicative of turbulence. By sharing this data, particularly in areas with known convective weather or jet streams, aircraft contribute to real-time turbulence mapping, which aids other aircraft and enhances meteorological forecasting capabilities.
+
+\subsection{Data Integration and Transmission}
+Data from these sensors are frequently transmitted to meteorological agencies through systems like the Aircraft Meteorological Data Relay (AMDAR). The AMDAR system enables the automatic collection and relay of temperature, wind speed, direction, and humidity data from aircraft in flight. This information is integrated into global meteorological databases, enhancing predictive accuracy for both short-term and long-term weather models. The gathered data from commercial wide-body aircraft is thus instrumental in building a comprehensive understanding of atmospheric conditions across various regions and altitudes.
+
+\section{Conclusion}
+Through the use of a diverse set of sensors, commercial wide-body aircraft provide essential meteorological data, including temperature, pressure, humidity, wind, and turbulence information. This data is critical not only for the safe operation of aircraft but also for the advancement of meteorological science, offering significant improvements in weather prediction and climate monitoring.
 
 \chapter{Component Installation}
 % TODO: Description and illustration of how the components can be installed in the aircraft
@@ -87,6 +114,42 @@ intermediate state of saturation with respect to water. We will refer to some ot
 \section{Theory}
 The theoritcal foudations are based upon the widely used Schmidt-Appleman Criterion \cite{appleman1953formation}, so much that it has become standard in most studies related to contrails. There are studies that are running experiments to verify these theoretical claims \cite{ghedhaifi2019influence}.
 
+We're going to use entraintment ratio to calculate the contrail formation. The entrainment ratio is the ratio of the mass of the entrained air to the mass of the exhaust gases. The entrainment ratio is a key parameter in determining the formation and persistence of contrails. A higher entrainment ratio indicates a greater mixing of the exhaust gases with the surrounding air, which can lead to the formation of contrails under the right atmospheric conditions.
+Under assumptions made by the Schmidt-Appleman criterion, the contrail formation can be predicted by the following equation:
+\begin{equation}
+        w_{sw}(T+\delta T) - w_{sw}(T) = \frac{0.336\cdot \delta T}{10000} - w_{si}(T) + w_{sw}(T)\cdot RH
+\end{equation}
+Where 
+\begin{itemize}[label={$\bigstar$ }]
+        \item $T$ is the ambient temperature,
+        \item $w_{sw}(T)$ is the saturation mixing ratio of water vapor at temperature $T$, defined as the ratio of the mass of water vapor to the mass of dry air in a given volume at saturation,
+        \item $w_{si}(T)$ is the saturation mixing ratio of ice crystals at temperature $T$, i.e. the mixing ratio of water vapor to dry air when the air is in equilibrium with ice rather than liquid water, 
+        \item $\delta T$ is the increase in temperature of the affected environment,
+        \item $RH$ is the relative humidity of the air
+\end{itemize}
+
+And the increase in temperature $\delta T$ can be calculated as:
+\begin{equation}
+        \delta T = \frac{10000}{12\cdot N \cdot 0.24}
+\end{equation}
+Assuming that for each gram of fuel burned by the jet air-craft, there are produced and added to the environment approximately 12 grams of exhaust gases, 1.4 grams of water vapor, and 10,000 calories of heat, and $N$ being the entraintment ratio, defined as the ratio of mass of entrained air to that of exhaust gas . This assumption is consistent if we're using kerosene as the fuel, which is the most common fuel used in jet aircrafts.\\
+
+Saturation mixing ratio can be written in terms of partial pressure as:
+\begin{equation*}
+        w_{sw}(T) = \frac{0.622\cdot e_s(T)}{P - e_s(T)}
+\end{equation*} 
+Where $e_s(T)$ is the saturation vapor pressure at temperature $T$ and $P$ is the total pressure. The saturation vapor pressure can be calculated using the Goff-Gratch equations\cite{goff}:
+\begin{align*}
+        \log_{10}(e_s) &= -7.9028\left(\frac{T_{st}}{T}-1\right)+5.02808\cdot \log_{10}\left(\frac{T_{st}}{T}\right)\\
+        &-1.3816\cdot 10^{-7}\cdot \left(10^{11.344\left(1-T/T_st\right)}-1\right)\\
+        &+8.1328\cdot 10^{-3} \cdot \left(10^{-3.49149*\left(\frac{T_{st}}{T}-1\right)}-1\right) + \log_{10}(1013.246)\\
+        \log_{10}(e_i) &=
+        -9.09718\left(\frac{T_{fz}}{T}-1\right)-3.56654\log_{10}\left(\frac{T_{fz}}{T}\right)\\
+        &+0.876793\left(1-\frac{T}{T_{fz}}\right) + \log_{10}(6.1071)
+\end{align*}
+where $T_{st}$ is the boiling temperature and $T_{fz}$ is the freezing temperature.\\
+
+Goff-Gratch equations are among the best formulations of saturation vapour pressure \cite{goff_best}
 
 \chapter{Route Replanning}
 % TODO: Demonstration of flight route re-planning to avoid contrails

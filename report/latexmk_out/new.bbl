@@ -33,7 +33,6 @@
       \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
       \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
       \strng{authorfullhashraw}{b6aea1a416c89509a7df1cbb69249cb6}
-      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -179,61 +178,6 @@
       \field{booktitle}{ISABE 2019-24th ISABE Conference}
       \field{title}{Influence of atmospheric conditions on contrail formation: 3D simulation versus Schmidt-Appleman criterion}
       \field{year}{2019}
-    \endentry
-    \entry{goff}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=b6aea1a416c89509a7df1cbb69249cb6}{%
-           family={{Wikipedia contributors}},
-           familyi={W\bibinitperiod}}}%
-      }
-      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{fullhashraw}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
-      \strng{authorfullhashraw}{b6aea1a416c89509a7df1cbb69249cb6}
-      \field{extraname}{2}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{[Online; accessed 6-November-2024]}
-      \field{title}{Goff–Gratch equation --- {Wikipedia}{,} The Free Encyclopedia}
-      \field{year}{2024}
-      \verb{urlraw}
-      \verb https://en.wikipedia.org/w/index.php?title=Goff%E2%80%93Gratch_equation&oldid=1193538813
-      \endverb
-      \verb{url}
-      \verb https://en.wikipedia.org/w/index.php?title=Goff%E2%80%93Gratch_equation&oldid=1193538813
-      \endverb
-    \endentry
-    \entry{goff_best}{online}{}{}
-      \name{author}{1}{}{%
-        {{hash=c02d6f898855ad94cb6689b3a2e67ddf}{%
-           family={Vömel},
-           familyi={V\bibinitperiod},
-           given={Dr.\bibnamedelimi Holger},
-           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-      }
-      \strng{namehash}{c02d6f898855ad94cb6689b3a2e67ddf}
-      \strng{fullhash}{c02d6f898855ad94cb6689b3a2e67ddf}
-      \strng{fullhashraw}{c02d6f898855ad94cb6689b3a2e67ddf}
-      \strng{bibnamehash}{c02d6f898855ad94cb6689b3a2e67ddf}
-      \strng{authorbibnamehash}{c02d6f898855ad94cb6689b3a2e67ddf}
-      \strng{authornamehash}{c02d6f898855ad94cb6689b3a2e67ddf}
-      \strng{authorfullhash}{c02d6f898855ad94cb6689b3a2e67ddf}
-      \strng{authorfullhashraw}{c02d6f898855ad94cb6689b3a2e67ddf}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \verb{urlraw}
-      \verb https://sciencepolicy.colorado.edu/~voemel/vp.html
-      \endverb
-      \verb{url}
-      \verb https://sciencepolicy.colorado.edu/~voemel/vp.html
-      \endverb
     \endentry
   \enddatalist
 \endrefsection

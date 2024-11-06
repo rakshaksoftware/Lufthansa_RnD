@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.22)  7 NOV 2024 00:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.22)  6 NOV 2024 23:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/Dell/Documents/Rakshak/Lufthansa_RnD/report/main.tex
-(c:/Users/Dell/Documents/Rakshak/Lufthansa_RnD/report/main.tex
+**c:/Users/Dell/Documents/Rakshak/Lufthansa_RnD/report/new.tex
+(c:/Users/Dell/Documents/Rakshak/Lufthansa_RnD/report/new.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
 (C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
@@ -1278,8 +1278,8 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
- (c:\Users\Dell\Documents\Rakshak\Lufthansa_RnD\report\latexmk_out\main.aux)
-\openout1 = `main.aux'.
+ (c:\Users\Dell\Documents\Rakshak\Lufthansa_RnD\report\latexmk_out\new.aux)
+\openout1 = `new.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
 LaTeX Font Info:    ... okay on input line 50.
@@ -1387,11 +1387,11 @@ File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `main.bcf'.
+\openout3 = `new.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' found.
- (c:\Users\Dell\Documents\Rakshak\Lufthansa_RnD\report\latexmk_out\main.bbl)
+Package biblatex Info: ... file 'new.bbl' found.
+ (c:\Users\Dell\Documents\Rakshak\Lufthansa_RnD\report\latexmk_out\new.bbl)
 Package biblatex Info: Reference section=0 on input line 50.
 Package biblatex Info: Reference segment=0 on input line 50.
  (C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/upquote\upquote.sty
@@ -1501,9 +1501,9 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 51--51
 [1
 
 
-{C:/Users/Dell/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./resources/rakshaklogo.png>] (c:\Users\Dell\Documents\Rakshak\Lufthansa_RnD\report\latexmk_out\main.toc)
+{C:/Users/Dell/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./resources/rakshaklogo.png>] (c:\Users\Dell\Documents\Rakshak\Lufthansa_RnD\report\latexmk_out\new.toc)
 \tf@toc=\write6
-\openout6 = `main.toc'.
+\openout6 = `new.toc'.
 
 
 
@@ -1518,32 +1518,25 @@ Chapter 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.60 \chapter
+l.61 \chapter
              {Introduction} [1
 
 ]
 Chapter 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--67
-
- []
-
 
 
 [2
 
 {C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]
 Chapter 3.
-
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 74.
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
 
 [3
 
-]
+{C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
 
 [4]
 Chapter 4.
@@ -1554,49 +1547,37 @@ Chapter 4.
 ]
 Chapter 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--136
-
- []
-
-
 
 [6
 
-{C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 149--151
-
- []
-
-
-
-[7{C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}]
+]
 Chapter 6.
 
 
-[8
+[7
 
 ]
 Chapter 7.
 
 
-[9
+[8
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 163.
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 117.
  (C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 163.
+(Font)              scaled to size 11.39996pt on input line 117.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zi4' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
 
-[10
+[9
 
-{C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-t1-0.enc}] (c:\Users\Dell\Documents\Rakshak\Lufthansa_RnD\report\latexmk_out\main.aux)
+{C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-t1-0.enc}] (c:\Users\Dell\Documents\Rakshak\Lufthansa_RnD\report\latexmk_out\new.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
@@ -1605,22 +1586,22 @@ L3 programming layer <2024-08-30>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package logreq Info: Writing requests to 'main.run.xml'.
-\openout1 = `main.run.xml'.
+Package logreq Info: Writing requests to 'new.run.xml'.
+\openout1 = `new.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46082 strings out of 473899
- 901968 string characters out of 5726972
- 1725486 words of memory out of 5000000
- 68067 multiletter control sequences out of 15000+600000
- 635133 words of font info for 147 fonts, out of 8000000 for 9000
+ 46092 strings out of 473899
+ 902265 string characters out of 5726972
+ 1723370 words of memory out of 5000000
+ 68082 multiletter control sequences out of 15000+600000
+ 635395 words of font info for 147 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 124i,12n,139p,1054b,1829s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on c:\Users\Dell\Documents\Rakshak\Lufthansa_RnD\report\latexmk_out\main.pdf (12 pages, 414247 bytes).
+ 124i,12n,139p,1053b,1829s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb>
+Output written on c:\Users\Dell\Documents\Rakshak\Lufthansa_RnD\report\latexmk_out\new.pdf (11 pages, 364944 bytes).
 PDF statistics:
- 267 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
- 43674 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 213 PDF objects out of 1000 (max. 8388607)
+ 33 named destinations out of 1000 (max. 500000)
+ 45714 words of extra memory for PDF output out of 51595 (max. 10000000)
 
