@@ -125,6 +125,60 @@
       \field{pages}{14\bibrangedash 20}
       \range{pages}{7}
     \endentry
+    \entry{ghedhaifi2019influence}{inproceedings}{}{}
+      \name{author}{7}{}{%
+        {{hash=ef0fe3f56138b2b3662eb19ddbf2d6a9}{%
+           family={Ghedhaifi},
+           familyi={G\bibinitperiod},
+           given={Weeded},
+           giveni={W\bibinitperiod}}}%
+        {{hash=f4d5727e16134e63a9ba405466cd4e0d}{%
+           family={Bienner},
+           familyi={B\bibinitperiod},
+           given={Aurélien},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d52db9434dd5527d11b4ed706c93ed23}{%
+           family={Megherbi},
+           familyi={M\bibinitperiod},
+           given={Riad},
+           giveni={R\bibinitperiod}}}%
+        {{hash=944ebacb599b545326c172e4d34653a7}{%
+           family={Montreuil},
+           familyi={M\bibinitperiod},
+           given={Emmanuel},
+           giveni={E\bibinitperiod}}}%
+        {{hash=a7e2d5da13e1b08d61e8cb717c884373}{%
+           family={Terrenoire},
+           familyi={T\bibinitperiod},
+           given={Etienne},
+           giveni={E\bibinitperiod}}}%
+        {{hash=685097f784b8db7df4a8c1a7d3a1672a}{%
+           family={Vancassel},
+           familyi={V\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod}}}%
+        {{hash=e33ae7561a80c5571508f23e3218f242}{%
+           family={Loseille},
+           familyi={L\bibinitperiod},
+           given={Adrien},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{7644264b586d9825ab8c3994f33a60bf}
+      \strng{fullhash}{d923b4c60cdc54f782018ea5444d5c6d}
+      \strng{fullhashraw}{d923b4c60cdc54f782018ea5444d5c6d}
+      \strng{bibnamehash}{7644264b586d9825ab8c3994f33a60bf}
+      \strng{authorbibnamehash}{7644264b586d9825ab8c3994f33a60bf}
+      \strng{authornamehash}{7644264b586d9825ab8c3994f33a60bf}
+      \strng{authorfullhash}{d923b4c60cdc54f782018ea5444d5c6d}
+      \strng{authorfullhashraw}{d923b4c60cdc54f782018ea5444d5c6d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{ISABE 2019-24th ISABE Conference}
+      \field{title}{Influence of atmospheric conditions on contrail formation: 3D simulation versus Schmidt-Appleman criterion}
+      \field{year}{2019}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
