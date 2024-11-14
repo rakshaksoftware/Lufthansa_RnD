@@ -2,6 +2,7 @@ import sympy as sp
 
 # Declare the variable for delta_T
 delta_T = sp.symbols('delta_T')
+# delta_T = 5
 RH = 0.6
 print("Declared variables: delta_T, RH")
 
@@ -19,6 +20,7 @@ print(f"e_i_star defined: {e_i_star}")
 
 e_w_star = (10**(-7.9028*((T_st/T)-1) + 5.02808*sp.log(T_st/T, 10) - 1.3816e-7*(10**(11.344*(1 - T/T_st)) - 1) + 8.1328e-3*(10**(-3.49149*(T/T_st - 1)) - 1))) * 1013.246
 print(f"e_w_star defined: {e_w_star}")
+print(e_w_star)
 
 # Define w_si and w_sw with T as a constant
 w_si = eps * e_i_star / (P - e_i_star)
@@ -27,7 +29,10 @@ print(f"w_si defined: {w_si}")
 w_sw_T = eps * e_w_star / (P - e_w_star)
 print(f"w_sw_T defined: {w_sw_T}")
 
-w_sw_T_delta = eps * e_w_star.subs(T, T + delta_T) / (P - e_w_star.subs(T, T + delta_T))
+# w_sw_T_delta = eps * e_w_star.subs(T, T + delta_T) / (P - e_w_star.subs(T, T + delta_T))
+my_t = sp.symbols('my_t')
+new_e = e_w_star.subs(T,T) + delta_T*sp.diff((10**(-7.9028*((T_st/my_t)-1) + 5.02808*sp.log(T_st/my_t, 10) - 1.3816e-7*(10**(11.344*(1 - my_t/T_st)) - 1) + 8.1328e-3*(10**(-3.49149*(my_t/T_st - 1)) - 1))) * 1013.246,my_t).subs(my_t,T)
+w_sw_T_delta = eps * new_e / (P - new_e)
 print(f"w_sw_T_delta defined: {w_sw_T_delta}")
 
 # Define the equation w_sw(T+delta_T) - w_sw(T) = (336*delta_T)/10000 - w_si + RH * w_sw(T)
@@ -50,6 +55,7 @@ print(combined_equation)
 
 # Simplify the equation
 simplified_equation = sp.simplify(combined_equation)
+# simplified_equation = combined_equation
 print("Simplified equation:")
 print(simplified_equation)
 
