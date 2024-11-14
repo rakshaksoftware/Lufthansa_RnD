@@ -15,10 +15,12 @@ P = 200
 print(f"Defined constants: T={T}, T_st={T_st}, T_fz={T_fz}, eps={eps}, P={P}")
 
 # Define e_i_star and e_w_star with T as a constant
-e_i_star = (10**(-9.09718*((T_fz/T)-1) - 3.56654*sp.log(T_fz/T, 10) + 0.876793*(1 - T/T_fz))) * 6.1071
+# e_i_star = (10**(-9.09718*((T_fz/T)-1) - 3.56654*sp.log(T_fz/T, 10) + 0.876793*(1 - T/T_fz))) * 6.1071
+e_i_star = (10**(-9.09718*((T_fz/T)-1) - 3.56654*sp.log(T_fz/T, 10) + 0.876793*(1 - T/T_fz)))
 print(f"e_i_star defined: {e_i_star}")
 
-e_w_star = (10**(-7.9028*((T_st/T)-1) + 5.02808*sp.log(T_st/T, 10) - 1.3816e-7*(10**(11.344*(1 - T/T_st)) - 1) + 8.1328e-3*(10**(-3.49149*(T/T_st - 1)) - 1))) * 1013.246
+# e_w_star = (10**(-7.9028*((T_st/T)-1) + 5.02808*sp.log(T_st/T, 10) - 1.3816e-7*(10**(11.344*(1 - T/T_st)) - 1) + 8.1328e-3*(10**(-3.49149*(T/T_st - 1)) - 1))) * 1013.246
+e_w_star = (10**(-7.9028*((T_st/T)-1) + 5.02808*sp.log(T_st/T, 10) - 1.3816e-7*(10**(11.344*(1 - T/T_st)) - 1) + 8.1328e-3*(10**(-3.49149*(T/T_st - 1)) - 1)))
 print(f"e_w_star defined: {e_w_star}")
 print(e_w_star)
 
@@ -36,12 +38,12 @@ w_sw_T_delta = eps * new_e / (P - new_e)
 print(f"w_sw_T_delta defined: {w_sw_T_delta}")
 
 # Define the equation w_sw(T+delta_T) - w_sw(T) = (336*delta_T)/10000 - w_si + RH * w_sw(T)
-equation = sp.Eq(w_sw_T_delta - w_sw_T, (336 * delta_T) / 10000 - w_si + RH * w_sw_T)
+equation = sp.Eq(w_sw_T_delta - w_sw_T, (0.336 * delta_T) / 10000 - w_si + RH * w_sw_T)
 print(f"Equation defined: {equation}")
 
 # Expand and simplify the equation step-by-step
 lhs = w_sw_T_delta - w_sw_T
-rhs = (336 * delta_T) / 10000 - w_si + RH * w_sw_T
+rhs = (0.336 * delta_T) / 10000 - w_si + RH * w_sw_T
 print("Left-hand side (lhs) of the equation expanded:")
 print(lhs)
 
@@ -54,8 +56,8 @@ print("Combined equation:")
 print(combined_equation)
 
 # Simplify the equation
-simplified_equation = sp.simplify(combined_equation)
-# simplified_equation = combined_equation
+# simplified_equation = sp.simplify(combined_equation)
+simplified_equation = combined_equation
 print("Simplified equation:")
 print(simplified_equation)
 
