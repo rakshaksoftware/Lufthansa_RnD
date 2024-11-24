@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.22)  7 NOV 2024 00:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.22)  14 NOV 2024 23:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1544,32 +1544,45 @@ Chapter 3.
 [3
 
 ]
-
-[4]
 Chapter 4.
 
 
-[5
+[4
 
 ]
 Chapter 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--136
 
- []
-
-
-
-[6
+[5
 
 {C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 149--151
+Underfull \hbox (badness 10000) in paragraph at lines 97--99
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 112--114
 
-[7{C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
+
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 121.
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+
+[6{C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
+
+[7]
 Chapter 6.
 
 
@@ -1582,12 +1595,12 @@ Chapter 7.
 [9
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 163.
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 136.
  (C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 163.
+(Font)              scaled to size 11.39996pt on input line 136.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zi4' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
@@ -1610,17 +1623,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46082 strings out of 473899
- 901968 string characters out of 5726972
- 1725486 words of memory out of 5000000
- 68067 multiletter control sequences out of 15000+600000
- 635133 words of font info for 147 fonts, out of 8000000 for 9000
+ 46094 strings out of 473899
+ 902651 string characters out of 5726972
+ 1730552 words of memory out of 5000000
+ 68089 multiletter control sequences out of 15000+600000
+ 632197 words of font info for 144 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  124i,12n,139p,1054b,1829s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on c:\Users\Dell\Documents\Rakshak\Lufthansa_RnD\report\latexmk_out\main.pdf (12 pages, 414247 bytes).
+Output written on c:\Users\Dell\Documents\Rakshak\Lufthansa_RnD\report\latexmk_out\main.pdf (12 pages, 406743 bytes).
 PDF statistics:
- 267 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
- 43674 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 227 PDF objects out of 1000 (max. 8388607)
+ 30 named destinations out of 1000 (max. 500000)
+ 43602 words of extra memory for PDF output out of 51595 (max. 10000000)
 
